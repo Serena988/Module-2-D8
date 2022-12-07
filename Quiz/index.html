@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Night</title>
+  <script src="https://kit.fontawesome.com/36fc63a8f9.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk&display=swap');
+  </style>
+  <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/fonts/stylesheet-font-score.css">
+
+</head>
+
+<body>
+  <main>
+    <div>
+
+      <div id="rules" class="animate-flicker">
+        <div>
+          <h1>Rules:</h1>
+        </div>
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fa-solid fa-clipboard-question"></i></span>You'll get 1 point for each
+            correct answer.</li>
+          <li><span class="fa-li"><i class="fa-solid fa-clipboard-question"></i></span>You get 0 points if you skip
+            a question.</li>
+          <li><span class="fa-li"><i class="fa-solid fa-clipboard-question"></i></span>You can expect to find multiple
+            choices and true or false questions.</li>
+          <li><span class="fa-li"><i class="fa-solid fa-clipboard-question"></i></span>Tread carefully though, you only
+            get one shot per answer! </li>
+        </ul>
+        <div>
+          <button id="skip-rules-btn" class="animate-entrance">Skip</button>
+        </div>
+      </div>
+
+      <div id="central">
+        <div id="show-questions"></div>
+        <div id="answers"></div>
+        <div id="start"></div>
+        <div id="next"></div>
+        <div id="score"></div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="scripts/script.js"></script>
+  <script src="scripts/questions.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'tracke_obliqueregular';
+    src: url('trackeoblique-6yvj1.woff2') format('woff2'),
+        url('trackeoblique-6yvj1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

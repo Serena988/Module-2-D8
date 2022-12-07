@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 50%;
+  margin: auto;
+}
+
+a {
+  color: rgb(0, 30, 223);
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+.table {
+  width: 50%;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 1.2rem;
+  margin: 30px 0;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+
+td:first-of-type {
+  font-weight: 600;
+}
+
+tr {
+  outline: 1px solid red;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid green;
+}
